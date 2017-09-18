@@ -101,10 +101,8 @@
 		F4EE682E1F6F7E93007E8588 /* CirculoRGB */ = {
 			isa = PBXGroup;
 			children = (
-				F4EE68321F6F7E93007E8588 /* AppDelegate.h */,
-				F4EE68331F6F7E93007E8588 /* AppDelegate.m */,
-				F4EE68351F6F7E93007E8588 /* ViewController.h */,
-				F4EE68361F6F7E93007E8588 /* ViewController.m */,
+				F4EE68621F6F7EEF007E8588 /* Main */,
+				F4EE68631F6F8032007E8588 /* Controllers */,
 				F4EE68381F6F7E93007E8588 /* Main.storyboard */,
 				F4EE683B1F6F7E93007E8588 /* Assets.xcassets */,
 				F4EE683D1F6F7E93007E8588 /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				F4EE68561F6F7E94007E8588 /* Info.plist */,
 			);
 			path = CirculoRGBUITests;
+			sourceTree = "<group>";
+		};
+		F4EE68621F6F7EEF007E8588 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE68321F6F7E93007E8588 /* AppDelegate.h */,
+				F4EE68331F6F7E93007E8588 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F4EE68631F6F8032007E8588 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE68361F6F7E93007E8588 /* ViewController.m */,
+				F4EE68351F6F7E93007E8588 /* ViewController.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
