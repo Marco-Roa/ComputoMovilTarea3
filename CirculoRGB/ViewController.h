@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *redCounterLabel;
+@property (weak, nonatomic) IBOutlet UILabel *greenCounterLabel;
+@property (weak, nonatomic) IBOutlet UILabel *blueCounterLabel;
+@property (weak, nonatomic) IBOutlet UISlider *redSlider;
+@property (weak, nonatomic) IBOutlet UISlider *blueSlider;
+@property (weak, nonatomic) IBOutlet UISlider *greenSlider;
+@property (weak, nonatomic) IBOutlet UILabel *hexLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *hideSwitch;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *numberTextField;
 
 @end
 
